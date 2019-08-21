@@ -1,6 +1,6 @@
 ---
 icinga_client_fqdn: "{{ ansible_fqdn }}"
-icinga_client_ip: "{{ ansible_default_ipv4.address }}"
+icinga_client_ip: "{{ ansible_host }}"
 icinga_client_display_name: "{{ inventory_hostname }}"
 icinga_client_certs_path: /var/lib/icinga2/certs/
 
